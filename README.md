@@ -37,5 +37,6 @@ Do the thing!
 
 | name      | branch                                                           | description                                                                                                                        |
 | --------- | ---------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
-| reactWind | [branch](https://github.com/benalittlewhile/templates#reactWind) | Quick starter based on [create-react-app](https://create-react-app.dev/) with added [ tailwind ](https://tailwindcss.com/) support |
+| reactWind | [branch](https://github.com/benalittlewhile/templates/tree/reactWind) | Quick starter based on [create-react-app](https://create-react-app.dev/) with added [ tailwind ](https://tailwindcss.com/) support |
+| tsSvelteWind | [branch](https://github.com/benalittlewhile/templates/tree/tsSvelteWind) | [ vite ](https://vitejs.dev) + [svelte](https://svelte.dev) + [typescript](https://www.typescriptlang.org/) + [tailwind](https://tailwindcss.com) oh my!
 | toDO      | ~                                                                | PRs Welcome!                                                                                                                       |
