@@ -3,7 +3,7 @@
 This is a project template based on
 [vite](https://vitejs.dev)'s svelte-ts template with added [ tailwind
 ](https://tailwindcss.com/) support. Actually that's all it is, I just installed
-tailwind using [svelte-add](https://github.com/svelte-add/svelte-add) (which si
+tailwind using [svelte-add](https://github.com/svelte-add/svelte-add) (which is
 extremely convenient, cannot recommend enough). I've included
 the rest of the svelte-ts readme under the line below because it's
 pretty useful.
