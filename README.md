@@ -1,42 +1,84 @@
-# templates
+# reactWind
 
-Degit-compatible templates to help spin up new projects!
+This is a project template based on
+[create-react-app](https://create-react-app.dev/) with added [ tailwind
+](https://tailwindcss.com/) support. Actually that's all it is, I just installed
+tailwind. I've included
+the rest of the create-react-app readme below the usage section because it's
+pretty useful.
 
 ## Usage
 
-### Requirements
+Install dependencies with `npm install` or `yarn` then run with `npm start` or
+`yarn start`
 
-- [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) (and
-  by extension [node](https://nodejs.org/en/))
+---
 
-### Usage
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Pick a template from [ the branches menu ](https://github.com/benalittlewhile/templates/branches) for this repo and make a
-note of the branch name.
+## Available Scripts
 
-Open up your terminal and change to the directory you want to clone the template
-into. (This will create a new folder containing the template)
+In the project directory, you can run:
 
-Run the follwing command, substituting the branch name for the template you want
-to clone:
+### `yarn start`
 
-    npx degit benalittlewhile/templates#[branchName]
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-For example, to clone the reactWind template I'd run `npx degit
-benalittlewhile/templates#reactWind` which would clone the contents of that
-template to a newly created templates folder. (See the [ degit
-](https://github.com/Rich-Harris/degit) repo for more information and other
-syntax).
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-Wait a moment
+### `yarn test`
 
-`cd templates` (or whatever your terminal uses)
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-Do the thing!
+### `yarn build`
 
-## Current Templates
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-| name      | branch                                                           | description                                                                                                                        |
-| --------- | ---------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
-| reactWind | [branch](https://github.com/benalittlewhile/templates#reactWind) | Quick starter based on [create-react-app](https://create-react-app.dev/) with added [ tailwind ](https://tailwindcss.com/) support |
-| toDO      | ~                                                                | PRs Welcome!                                                                                                                       |
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `yarn eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `yarn build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
